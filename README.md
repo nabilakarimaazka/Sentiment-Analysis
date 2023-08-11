@@ -19,7 +19,19 @@ reference for the data preprocessing process.
 
 3. Sentiment Analysis Using Support Vector Machine Model
 In this stage, the support vector machine model is built. You can use Sentiment_Analysis_SVM.ipynb for reference. In this section, the trained model is also used to predict unlabeled reviews. After the prediction, I made a pie chart visualization to see the percentage comparison of each sentiment class.
+
+![EEG Band Discovery](/asset/pie_chart.png)
+
+4. Wordcloud
+After finishing labeling the application review with the model that has been made, I created a wordcloud to see the words that often appear in each sentiment class, namely positive and negative. The following is the wordcloud of each sentiment class:
+  Sentimen Negatif
+
 ![EEG Band Discovery](/asset/neg_chat_gpt.png)
+
+  Sentimen Positif
+
+![EEG Band Discovery](/asset/pos_chatgpt.png) 
+
 
 
 
